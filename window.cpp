@@ -6,7 +6,11 @@ int main()
     sf::ContextSettings contextSettings;
     contextSettings.depthBits = 24;
 
+<<<<<<< HEAD
     sf::Window window(sf::VideoMode(640, 480), "SFML & OpenGL", sf::Style::Default, contextSettings);
+=======
+    sf::Window window(sf::VideoMode(640, 480), "SFML window with OpenGL", sf::Style::Default, contextSettings);
+>>>>>>> 5e51d0702332f3258e4ffec52db35c8216fd47f4
 
     window.setActive();
 
